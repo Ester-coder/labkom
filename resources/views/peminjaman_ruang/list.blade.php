@@ -14,6 +14,7 @@
                     <strong class="card-title">Peminjaman Ruang</strong>
                 </div>
                 <div class="card-body">
+                <a href="{{ url('/peminjaman_ruang/tambah') }}" class="btn btn-primary my-3"> Tambah Data Mahasiswa </a>
                     <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
                         <thead>
                             <tr>
