@@ -44,26 +44,26 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="./"><img src="assets/images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand" href="./"><h2 style="color: blue">Labkom</h2></a>
                 <a class="navbar-brand hidden" href="./"><img src="assets/images/logo2.png" alt="Logo"></a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="{{ url('/') }}"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
                     <li>
                         <a href="{{ url('/peminjaman_ruang') }}"> <i class="menu-icon fa fa-university"></i>Peminjaman Ruang</a>
                     </li>
                     <li>
-                        <a href="#"> <i class="menu-icon fa fa-wrench"></i>Peminjaman Alat</a>
+                        <a href="{{ url('/peminjaman_alat') }}"> <i class="menu-icon fa fa-wrench"></i>Peminjaman Alat</a>
                     </li>
                     <li>
-                        <a href="#"> <i class="menu-icon fa fa-laptop"></i>Installasi</a>
+                        <a href="{{ url('/installasi') }}"> <i class="menu-icon fa fa-laptop"></i>Installasi</a>
                     </li>
                     <li>
-                        <a href="#"> <i class="menu-icon fa fa-print"></i>Jasa Print</a>
+                        <a href="{{ url('/jasa_print') }}"> <i class="menu-icon fa fa-print"></i>Jasa Print</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->

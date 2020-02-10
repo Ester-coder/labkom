@@ -14,8 +14,8 @@
                             </div>
                             <div class="stat-content">
                                 <div class="text-left dib">
-                                    <div class="stat-heading font-weight-bold">Peminjaman Ruang</div>
-                                    <div class="stat-text">Total: 765</div>
+                                    <div class="stat-heading font-weight-bold">P. Ruang</div>
+                                    <div class="stat-text">Total : {{ $count['ruang'] }}</div>
                                 </div>
                             </div>
                         </div>
@@ -33,8 +33,8 @@
                             </div>
                             <div class="stat-content">
                                 <div class="text-left dib">
-                                    <div class="stat-heading font-weight-bold">Peminjaman Alat</div>
-                                    <div class="stat-text">Total: 765</div>
+                                    <div class="stat-heading font-weight-bold">P. Alat</div>
+                                    <div class="stat-text">Total : {{ $count['alat'] }}</div>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                             <div class="stat-content">
                                 <div class="text-left dib">
                                     <div class="stat-heading font-weight-bold">Jasa Installasi</div>
-                                    <div class="stat-text">Total: 765</div>
+                                    <div class="stat-text">Total : {{ $count['installasi'] }}</div>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                             <div class="stat-content">
                                 <div class="text-left dib">
                                     <div class="stat-heading font-weight-bold">Jasa Print</div>
-                                    <div class="stat-text">Total: 765</div>
+                                    <div class="stat-text">Total : {{ $count['print'] }}</div>
                                 </div>
                             </div>
                         </div>
